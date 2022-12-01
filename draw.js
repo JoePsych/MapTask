@@ -27,7 +27,6 @@ let colourMaps = "https://github.com/JoePsych/MapTask/blob/main/Images/1.1ORIGIN
 
 function trials(){
     var img = new Image;
-    img.setAttribute('crossorigin', 'anonymous');
     img.onload = function(){
         modW = img.naturalWidth;modH = img.naturalHeight;
         ratio = modH/modW;screenRatio = height/width;
